@@ -97,8 +97,8 @@
     }
 
     //勝敗判定ビジュアル.png
-    document.getElementById("comJankenpon").src="jan" + enemyHand + ".png";//コンピュータの出した手の絵
-    document.getElementById("myJankenpon").src="jan" + myHand + ".png";//自分が出した手の絵
+    document.getElementById("comJankenpon").src="img/jan" + enemyHand + ".png";//コンピュータの出した手の絵
+    document.getElementById("myJankenpon").src="img/jan" + myHand + ".png";//自分が出した手の絵
 
     if (gameCount === 3) { //試合数が５回に到達したら実行される処理
       winCount.textContent = `${winResult}回`;
